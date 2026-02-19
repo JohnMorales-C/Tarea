@@ -2,7 +2,7 @@
 
 ## **1.¿Qué es un repositorio en Git y cómo se diferencia de un proyecto normal?**
 
-### Un repositorio en Git es una carpeta del proyecto que además guarda el historial completo de todo lo que ha pasado en él, no solo contiene archivos sino también versiones, cambios, autores y fechas, a diferencia de un proyecto normal donde si algo se daña no hay forma sencilla de volver atrás.
+###### Un repositorio en Git es una carpeta del proyecto que además guarda el historial completo de todo lo que ha pasado en él, no solo contiene archivos sino también versiones, cambios, autores y fechas, a diferencia de un proyecto normal donde si algo se daña no hay forma sencilla de volver atrás.
 
 ¿Cuáles son las tres áreas principales de Git? Git trabaja con tres espacios que se complementan, el Working Directory que es donde uno edita normalmente los archivos, el Staging Area que funciona como una zona de preparación donde se decide qué cambios sí van a guardarse, y el Repository que ya es el historial definitivo donde quedan registrados los commits.
 ¿Cómo representa Git los cambios internamente? Git guarda la información mediante objetos llamados blob para el contenido de archivos, tree para representar carpetas, commit para registrar cambios y tag para marcar versiones importantes, en lugar de guardar diferencias pequeñas lo que hace es almacenar una especie de fotografía completa del proyecto en cada versión.
